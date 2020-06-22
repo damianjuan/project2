@@ -1,146 +1,158 @@
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 .wrapper {
-    min-height: 100%;
-    position: relative;
+  min-height: 100%;
+  position: relative;
 }
 
 .header {
-    background-color: #4DBC96;
-    padding: 3em;
-    display: flex;
-    justify-content: center;
+  background-color: #4dbc96;
+  padding: 3em;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
-    font-size: 3.25em;
+  font-size: 3.25em;
 }
 
 main {
-    padding-bottom: 8em;
+  padding-bottom: 8em;
 }
 
 .input-header {
-    background-color: #4DBC96;
-    width: 80%;
-    margin: 6em auto 0;
-    padding: 2em;
-    text-align: center;
-    border-radius: .75em .75em 0 0;
+  background-color: #4dbc96;
+  width: 80%;
+  margin: 6em auto 0;
+  padding: 2em;
+  text-align: center;
+  border-radius: 0.75em 0.75em 0 0;
 }
 
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
-    font-size: 2.75em;
+  font-size: 2.75em;
 }
 
 .inputs {
-    width: 80%;
-    margin: auto;
-    padding: 2em;
-    border: 1px solid grey;
-    border-radius: 0 0 .75em .75em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 2em;
+  border: 1px solid grey;
+  border-radius: 0 0 0.75em 0.75em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .inputs-form {
-    display: flex;
-    width: 80%;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form-grid {
-    margin: 2em;
-    width: 80%;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    grid-row-gap: 2em;
+  margin: 2em;
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 2em;
 }
 
 .form-group {
-    width: 100%;
+  width: 100%;
 }
 
 li {
-    list-style: none;
-    font-size: 1.75em;
+  list-style: none;
+  font-size: 1.75em;
 }
 
 .form-prompt {
-    font-size: 1.75em;
-    margin-right: 2em;
-    text-align: right;
+  font-size: 1.75em;
+  margin-right: 2em;
+  text-align: right;
 }
 
 .form-check-label {
-    font-size: .75em;
+  font-size: 0.75em;
 }
 
 .survey-input {
-    height: 6em;
-    width: 100%;
+  height: 6em;
+  width: 100%;
 }
 
 .textfield {
-    height: 3em;
-    width: 16em;
+  height: 3em;
+  width: 16em;
 }
 
 .submitBtn {
-    margin: .75em 0 1em 0;
-    font-size: 2em;
-    padding: .25em 2em;
-    border-radius: .75em;
-    color: white;
-    background-color: #724BDC;
+  margin: 0.75em 0 1em 0;
+  font-size: 2em;
+  padding: 0.25em 2em;
+  border-radius: 0.75em;
+  color: white;
+  background-color: #724bdc;
 }
 
 h3 {
-    margin-bottom: .75em;
+  margin-bottom: 0.75em;
 }
 
 .footer {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .links {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  list-style: none;
+}
+#logout {
+  margin: 0.5em 0 1em 0;
+  font-size: 1em;
+  padding: 0.2em 1em;
+  border-radius: 0.5em;
+  color: white;
+  background-color: #724bdc;
 }
 
-#about, #terms, #creators, #help {
-    flex: 1;
-    color: #0645AD;
-    font-size: 1.75em;
-    text-align: center;
+#about,
+#terms,
+#creators,
+#help {
+  flex: 1;
+  color: #0645ad;
+  font-size: 1.75em;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
-    .input-header {
-        border-radius: 1em 1em 0 0;
-    }
+  .input-header {
+    border-radius: 1em 1em 0 0;
+  }
 
-    .inputs {
-        border-radius: 0 0 1em 1em;
-    }
+  .inputs {
+    border-radius: 0 0 1em 1em;
+  }
 
-    #submitBtn {
-        border-radius: 1em;
-    }
+  #submitBtn {
+    border-radius: 1em;
+  }
 }

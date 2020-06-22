@@ -100,6 +100,22 @@ $submitBtn.on('click', handleFormSubmit);
 $exampleList.on('click', '.delete', handleDeleteBtnClick);
 
 // Button to take us from login page to create survey
-$("#start").on("click", function(){
-  window.location.href="/surveys/create"
+$("#start").on("click", function () {
+  window.location.href = "/surveys/create"
 })
+
+$(document).ready(function () {
+  // This file just does a GET request to figure out which user is logged in
+  // and updates the HTML on the page
+  $.get("/api/user_data").then(function (data) {
+    $(".member-name").text(data.email);
+  });
+  $.get("/api/surveys").then(function (data) {
+    for (let i = 0; i < data.length; i++) {
+      $("<button>")
+        .text(data[i].survey_title)
+        .appendTo($(".titleBtn"));
+      $("<hr>").appendTo($(".titleBtn"));
+    }
+  });
+});

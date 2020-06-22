@@ -53,6 +53,17 @@ apiRoutes.get("/user_data", (req, res) => {
     }
 });
 
+apiRoutes.get("/surveys", (req, res) => {
+    db.Surveys.findAll({
+        attributes: ['survey_title'],
+        where: {
+            UserId: req.user.id
+        }
+    }).then((titles) => {
+        res.json(titles);
+    });
+});
+
 module.exports = apiRoutes;
 
 
