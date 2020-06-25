@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   color: #2d2169;
+  font-family: 'Pangolin', cursive;
 }
 
 .wrapper {
