@@ -1,4 +1,4 @@
-# Project 2
+# Project Boolean
 ![GitHub repo size](https://img.shields.io/github/repo-size/damianjuan/project2) ![GitHub contributors](https://img.shields.io/github/contributors/damianjuan/project2) ![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)  
 This is a web application that allows users to create an account, and use that account to create and answer surveys, as well as producing links to send surveys to others.
 ## Table of Contents
@@ -28,6 +28,7 @@ To be used by users who want to create or take surveys.  Sign up with an email a
 No contributions will be accepted at this time
 ## Credits
 Byron Ferguson https://github.com/byronferguson for supplying the boilerplate
+Taylor Moody-Huhn https://www.instagram.com/taylormoodyillustration for creating our logo
 ## Authors
 - Juan Damian https://github.com/damianjuan
 - Alex Saiyan https://github.com/Anverch
