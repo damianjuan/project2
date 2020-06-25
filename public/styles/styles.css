@@ -22,14 +22,14 @@ h1 {
 }
 
 .logo {
-    width: 10rem;
+    height: 4.3125rem;
 }
 
 .user-control {
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 10.375rem;
+    margin-top: 11.125rem;
     padding: .75rem;
     background-color: #D1D1D1;
     border-radius: 0 0 0 .5rem;
